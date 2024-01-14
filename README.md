@@ -1,5 +1,7 @@
 First calc please give more advice PLEASE
 current code:
+
+
 def add(num1, num2):
     return num1 + num2
 
@@ -28,8 +30,7 @@ while True:
     num1 = float(input("First number: "))
     num2 = float(input("Next number: "))
     result = None
-
-    if operator == "+":
+if operator == "+":
         result = add(num1, num2)
     elif operator == "-":
         result = subtract(num1, num2)
@@ -40,12 +41,11 @@ while True:
     else:
         print("Invalid, you're not pluh, pick a right operation pluh pluh")
 
-    if result is not None:
+ if result is not None:
         print("The pluh result is:", result)
-    
-    
-    choice = input("Press enter to continue or 'r' to quit... : ")
+ choice = input("Press enter to continue or 'r' to quit... : ")
     if choice == 'r':
         break
 
+    
 
